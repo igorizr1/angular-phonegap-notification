@@ -1,5 +1,5 @@
-angular.module('NotificationService', ["general.config"])
-.factory('NotificationService', function(GENERAL_CONFIG) {
+angular.module('NotificationModule', ["general.config"])
+.factory('NotificationModule', function(GENERAL_CONFIG) {
     return {
         alert : function(message){
             try{
