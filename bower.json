@@ -2,7 +2,7 @@
   "name": "angular-phonegap-notification",
   "main": "angular-phonegap-notification.js",
   "version": "0.0.0",
-  "homepage": "https://github.com/igorizr1/NotificationService",
+  "homepage": "https://github.com/igorizr1/angular-phonegap-notification.git",
   "authors": [
     "igorizr1@gmail.com"
   ],
