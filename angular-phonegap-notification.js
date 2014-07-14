@@ -1,4 +1,4 @@
-angular.module('NotificationModule', ["general.config"])
+angular.module('angular-phonegap-notification', ["general.config"])
 .factory('NotificationModule', function(GENERAL_CONFIG) {
     return {
         alert : function(message){
@@ -27,5 +27,4 @@ angular.module('NotificationModule', ["general.config"])
             }
         }
     };
-    
 });
