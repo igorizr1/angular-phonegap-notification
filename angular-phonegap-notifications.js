@@ -1,4 +1,4 @@
-angular.module('angular-phonegap-notification', ["general.config"])
+angular.module('angular-phonegap-notifications', ["general.config"])
 .factory('NotificationModule', function(GENERAL_CONFIG) {
     return {
         alert : function(message){
