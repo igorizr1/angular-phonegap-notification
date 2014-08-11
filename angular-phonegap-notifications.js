@@ -23,7 +23,8 @@ angular.module('angular-phonegap-notifications', ["general.config"])
                     ['Ok','Cancel']
                 );
             }catch(t){
-                confirm(message, callback);
+//                confirm(message, callback);
+                callback(confirm(message));
             }
         }
     };
